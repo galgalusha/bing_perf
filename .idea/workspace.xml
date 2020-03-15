@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tomcat9-slowness" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f52fa10-10fb-4246-93f5-9e86dfb5fa41" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tomcat9-slowness" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tomcat9-slowness" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tomcat9-slowness" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tomcat9-slowness" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tomcat9-slowness" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tomcat9-slowness" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tomcat9-slowness" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1YbswNe68O94L7YWGiXAU5cGfHi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/shaded/bing/org/apache/cxf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.24625" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="shaded.bing.org.apache.cxf" />
+      <recent name="helpers" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.tomcat9-slowness [war]">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kenshoo.mini.ks.App" />
+      <module name="tomcat9-slowness.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat9-slowness [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="tomcat9-slowness [war]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="war" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="tomcat9-slowness">
+          <settings>
+            <option name="CONTEXT_PATH" value="/tomcat9_slowness" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_tomcat9-slowness_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="36411" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="tomcat9-slowness" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Default_(Template)_Project" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="36411" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Gradle.tomcat9-slowness [war]" />
+      <item itemvalue="Gradle.tomcat9-slowness [assemble]" />
+      <item itemvalue="Tomcat Server.Tomcat 7" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.tomcat9-slowness [assemble]" />
+        <item itemvalue="Gradle.tomcat9-slowness [war]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f52fa10-10fb-4246-93f5-9e86dfb5fa41" name="Default Changelist" comment="" />
+      <created>1583222865267</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583222865267</updated>
+      <workItem from="1583222868826" duration="9882000" />
+      <workItem from="1583310563791" duration="21798000" />
+      <workItem from="1583421653294" duration="547000" />
+      <workItem from="1583658380217" duration="1025000" />
+      <workItem from="1583926929809" duration="2108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="567" y="268" width="1253" height="684" key="#Project_Structure" timestamp="1583326614142">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="567" y="268" width="1253" height="684" key="#Project_Structure/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583326614142" />
+    <state x="2338" y="175" width="1109" height="818" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583328943471">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="418" y="198" width="1109" height="818" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583327049412" />
+    <state x="2338" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583328943471" />
+    <state x="2688" y="260" width="374" height="594" key="#com.intellij.ide.util.MemberChooser" timestamp="1583330697987">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2688" y="260" width="374" height="594" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583330697987" />
+    <state x="555" y="234" width="800" height="684" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1583326528954">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="234" width="800" height="684" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583326528954" />
+    <state x="718" y="157" width="1103" height="765" key="#xdebugger.evaluate" timestamp="1583324571176">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="718" y="157" width="1103" height="765" key="#xdebugger.evaluate/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583324571176" />
+    <state x="1072" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1583658750780">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state x="1072" y="298" key="FileChooserDialogImpl/0.27.3840.1053@0.27.3840.1053" timestamp="1583658750780" />
+    <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583421310796" />
+    <state width="1874" height="272" key="GridCell.Tab.0.bottom" timestamp="1583659405818">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state width="1874" height="272" key="GridCell.Tab.0.bottom/0.27.3840.1053@0.27.3840.1053" timestamp="1583659405818" />
+    <state width="1291" height="189" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583421421031" />
+    <state width="1874" height="339" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583334495451" />
+    <state width="1874" height="272" key="GridCell.Tab.0.center" timestamp="1583659405818">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state width="1874" height="272" key="GridCell.Tab.0.center/0.27.3840.1053@0.27.3840.1053" timestamp="1583659405818" />
+    <state width="1291" height="189" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583421421031" />
+    <state width="1874" height="339" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583334495451" />
+    <state width="1874" height="272" key="GridCell.Tab.0.left" timestamp="1583659405817">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state width="1874" height="272" key="GridCell.Tab.0.left/0.27.3840.1053@0.27.3840.1053" timestamp="1583659405817" />
+    <state width="1291" height="189" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583421421030" />
+    <state width="1874" height="339" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583334495451" />
+    <state width="1874" height="272" key="GridCell.Tab.0.right" timestamp="1583659405818">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state width="1874" height="272" key="GridCell.Tab.0.right/0.27.3840.1053@0.27.3840.1053" timestamp="1583659405818" />
+    <state width="1291" height="189" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583421421031" />
+    <state width="1874" height="339" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583334495451" />
+    <state width="1291" height="189" key="GridCell.Tab.1.bottom" timestamp="1583421421031">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1291" height="189" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583421421031" />
+    <state width="1874" height="335" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583331471084" />
+    <state width="1291" height="189" key="GridCell.Tab.1.center" timestamp="1583421421031">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1291" height="189" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583421421031" />
+    <state width="1874" height="335" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583331471084" />
+    <state width="1291" height="189" key="GridCell.Tab.1.left" timestamp="1583421421031">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1291" height="189" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583421421031" />
+    <state width="1874" height="335" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583331471084" />
+    <state width="1291" height="189" key="GridCell.Tab.1.right" timestamp="1583421421031">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1291" height="189" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583421421031" />
+    <state width="1874" height="335" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583331471084" />
+    <state width="1291" height="189" key="GridCell.Tab.2.bottom" timestamp="1583421421031">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1291" height="189" key="GridCell.Tab.2.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583421421031" />
+    <state width="1291" height="189" key="GridCell.Tab.2.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583329958722" />
+    <state width="1291" height="189" key="GridCell.Tab.2.center" timestamp="1583421421031">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1291" height="189" key="GridCell.Tab.2.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583421421031" />
+    <state width="1291" height="189" key="GridCell.Tab.2.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583329958722" />
+    <state width="1291" height="189" key="GridCell.Tab.2.left" timestamp="1583421421031">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1291" height="189" key="GridCell.Tab.2.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583421421031" />
+    <state width="1291" height="189" key="GridCell.Tab.2.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583329958722" />
+    <state width="1291" height="189" key="GridCell.Tab.2.right" timestamp="1583421421031">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1291" height="189" key="GridCell.Tab.2.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583421421031" />
+    <state width="1291" height="189" key="GridCell.Tab.2.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583329958722" />
+    <state width="1291" height="189" key="GridCell.Tab.3.bottom" timestamp="1583421421031">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1291" height="189" key="GridCell.Tab.3.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583421421031" />
+    <state width="1291" height="189" key="GridCell.Tab.3.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583329958722" />
+    <state width="1291" height="189" key="GridCell.Tab.3.center" timestamp="1583421421031">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1291" height="189" key="GridCell.Tab.3.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583421421031" />
+    <state width="1291" height="189" key="GridCell.Tab.3.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583329958722" />
+    <state width="1291" height="189" key="GridCell.Tab.3.left" timestamp="1583421421031">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1291" height="189" key="GridCell.Tab.3.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583421421031" />
+    <state width="1291" height="189" key="GridCell.Tab.3.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583329958722" />
+    <state width="1291" height="189" key="GridCell.Tab.3.right" timestamp="1583421421031">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1291" height="189" key="GridCell.Tab.3.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583421421031" />
+    <state width="1291" height="189" key="GridCell.Tab.3.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583329958722" />
+    <state x="443" y="117" width="1436" height="852" key="SettingsEditor" timestamp="1583327028372">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="443" y="117" width="1436" height="852" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583327028372" />
+    <state x="689" y="270" width="654" height="540" key="StructurePopup" timestamp="1583408815550">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="689" y="270" width="654" height="540" key="StructurePopup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583408815550" />
+    <state x="732" y="320" width="446" height="447" key="chooseDestDirectoryDialog" timestamp="1583340802359">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="732" y="320" width="446" height="447" key="chooseDestDirectoryDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583340802359" />
+    <state x="584" y="255" width="751" height="570" key="find.popup" timestamp="1583399417543">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="584" y="255" width="751" height="570" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583399417543" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1583400067958">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1583400067958" />
+    <state x="2543" y="217" width="672" height="696" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583337451850" />
+  </component>
+</project>
