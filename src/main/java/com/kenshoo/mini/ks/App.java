@@ -1,12 +1,19 @@
 package com.kenshoo.mini.ks;
 
 import com.google.common.base.Throwables;
+import com.kenshoo.mini.ks.fix.CachedBingServiceFactory;
 import com.microsoft.bingads.ApiEnvironment;
 import com.microsoft.bingads.AuthorizationData;
 import com.microsoft.bingads.OAuthWebAuthCodeGrant;
 import com.microsoft.bingads.ServiceClient;
+import com.microsoft.bingads.internal.ServiceFactoryFactory;
 import com.microsoft.bingads.v12.reporting.IReportingService;
+import com.microsoft.bingads.v13.customermanagement.GetAccountsInfoRequest;
+import com.microsoft.bingads.v13.customermanagement.GetAccountsInfoResponse;
+import com.microsoft.bingads.v13.customermanagement.ICustomerManagementService;
 
+import javax.xml.namespace.QName;
+import javax.xml.ws.Service;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
@@ -15,10 +22,19 @@ import java.time.Instant;
 public class App {
     static ChannelAccount channelAccount = newChannelAccount();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
+
+        CachedBingServiceFactory.configure();
+
+
+        GetAccountsInfoRequest req = new GetAccountsInfoRequest();
+        req.setCustomerId(Long.parseLong(newChannelAccount().getCustomerId()));
+
         Instant before = Instant.now();
-        for (int i=0; i<1; i++) {
-            createReal(IReportingService.class);
+        for (int i=0; i<20; i++) {
+            ICustomerManagementService srv = createReal(ICustomerManagementService.class);
+//            GetAccountsInfoResponse response = srv.getAccountsInfo(req);
+//            System.out.println(response.getAccountsInfo().getAccountInfos().size());
         }
         System.out.println("duration: " + Duration.between(before, Instant.now()).toMillis() + " millis");
     }
@@ -42,17 +58,18 @@ public class App {
         }
     }
 
-    private static <T> void createReal(Class<T> serviceInterface) {
+    private static <T> T createReal(Class<T> serviceInterface) {
         System.out.println(String.format("Create Bing Service %s for account %s Started", serviceInterface.getSimpleName(), 1));
 //        try (Timer.Context time = metrics.timer("createService.Timer." + serviceInterface.getSimpleName()).time()) {
         try {
 //            apiCallService.get(() -> new ServiceClient<>(setHeader(channelAccount), serviceInterface).getService(), channelAccount);
-            new ServiceClient<>(setHeader(channelAccount), serviceInterface).getService();
+            T srv = new ServiceClient<>(setHeader(channelAccount), serviceInterface).getService();
             System.out.println(String.format("Create Bing Service %s for account %s Ended with succeed", serviceInterface.getSimpleName(), 1));
+            return srv;
         } catch (Exception e) {
 //            bingSyncMetricsService.sendAlarmMetric("createService." + serviceInterface.getSimpleName() + "." + e.getClass().getSimpleName());
             System.out.println(String.format("Create Bing Service %s for account %s Ended with error message %s", serviceInterface.getSimpleName(), 1, e.getMessage()));
-            Throwables.propagate(e);
+            throw new RuntimeException(e);
         }
     }
 

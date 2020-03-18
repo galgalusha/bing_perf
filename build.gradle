@@ -22,10 +22,10 @@ dependencies {
     compile group: 'com.google.guava', name: 'guava', version: '16.0.1'
     compile group: 'javax.servlet', name: 'servlet-api', version: '3.0'
 
-    compile group: 'com.sun.xml.bind', name: 'jaxb-impl', version: '2.2.6'
-    compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.1' //'2.2.6
+//    compile group: 'com.sun.xml.bind', name: 'jaxb-impl', version: '2.2.6'
+//    compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.1' //'2.2.6
     compile group: 'com.microsoft.bingads', name: 'microsoft.bingads', version: '2.13.4-shaded-for-ks-3'
     compile group: 'javax.xml', name: 'webservices-api', version: '2.0.1'
-//    compile group: 'com.sun.xml.ws', name: 'webservices-rt', version: '2.0.1'
+    compile group: 'com.sun.xml.ws', name: 'webservices-rt', version: '2.0.1'
 
 }
